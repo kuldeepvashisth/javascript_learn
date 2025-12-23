@@ -38,12 +38,13 @@ else{
     console.log("odd");
 }
  
-//terminary operator -> if else in 1 line --> jaise 1 line return 
+"all loops and if else all are same as c++
+
+"//terminary operator -> if else in 1 line --> jaise 1 line return 
 let age=23;
  let drink= age > 12 ?" milk" : "Coffee";
  console.log(drink);
 
- */
  //logical AND/OR operator same as cpp;
  let name="kuldeep",age=34;
  if(name[2]=== 'l' || age>=22){
@@ -51,4 +52,27 @@ let age=23;
  }
  else{
     Minor;
-} 
+}
+ let sum=0,i=1;
+
+ while(i<=10){
+    sum+=i;
+    i++;
+ }
+  console.log(sum);
+
+var sum=0;
+ for(let i=1;i<9;i++){
+    sum+=i;
+ }
+ console.log("sum is :",sum);
+
+ var sum=0,i=1;
+do{
+    sum+=i;
+    i++;
+}while(i<=9);
+console.log(sum);
+
+ye saare same c++ ki trah hi hai isse upper ka
+*/
