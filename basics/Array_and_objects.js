@@ -129,12 +129,13 @@ const arr2=[4,5,6];
 
 
 // destructoion in object => shortcut to make variable from object
-const band={
-    bandname:"fgh",
-    song:"dj",
-    year:1897,
-    u:"my"
-}
+// const band={
+//     bandname:"fgh",
+//     song:"dj",
+//     year:1897,
+//     u:"my"
+// }
+
 // let {bandname:var1,song:var2}=band;
 // console.log(var1,var2);
 // by default jo name obj mai hota hai usi naam se variable bnta hai
@@ -159,5 +160,21 @@ const users=[
 // cosnt[]==>[]bcoz array se chaiye vo variable ki value
 // cosnt{}==>[]bcoz object se chaiye vo variable ki value
 
-const[{name:var1,userid:idxee},{userid:idx2} ,{sex:my_gender}]=users;
-console.log(var1," :: ",my_gender,"::",idxee,"::",idx2);
+
+
+// const[{name:var1,userid:idxee},{userid:idx2} ,{sex:my_gender}]=users;
+// console.log(var1," :: ",my_gender,"::",idxee,"::",idx2);
+
+
+
+const band={
+    bandname:"fgh",
+    song:"dj",
+    year:1897,
+    u:"my"
+}
+
+const{bandname:myname,...newobj}=band;
+console.log(myname);
+console.log(newobj);
+//console.log(song);
