@@ -1,6 +1,6 @@
  /* text-align-last => sirf lst line pr efect krta hai
      text-align->sirf horz center krta hai vertically bhi krne ke lie use flexbox
-     align-items:stretch => sbhi flexitems puri height le apne div ki agr stretch ni krneg to vo utni hi height lenge jitn text ki hogi
+     align-items:stretch => sbhi flexitems puri height lenge apne div ki agr stretch ni krneg to vo utni hi height lenge jitn text ki hogi
      align-self: item khud apni alignent chose krta hai irespective of parent
      height jb bdhao => jb header ya hero section ho ya layout 
      pading bdhao jb heading ,buton,text mai

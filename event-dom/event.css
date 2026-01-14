@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+/* 
+h1{
+    background-color:brown;
+    border-radius:1rem;
+    color:chartreuse;
+}
+button{
+    background-color:blanchedalmond;
+    padding:1.4rem 2rem;
+    font-size:1.8rem;
+    margin:2rem;
+    border-radius:1.2rem;
+} */
+
+.box{
+    /* min-width:10px;
+   min-height:10px; */
+    padding: 5rem;
+    font-weight:bold;
+    font-size:2rem;
+}
+.grand{
+    background-color: rgb(182, 199, 191);
+}
+.parent{
+     background-color:yellow;
+        
+}  
+
+.child{
+    background-color: cadetblue;
+}
