@@ -3,13 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
-main{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-}
-/* 
+/*
 h1{
     background-color:brown;
     border-radius:1rem;
@@ -21,15 +15,15 @@ button{
     font-size:1.8rem;
     margin:2rem;
     border-radius:1.2rem;
-} */
+}
 
 .box{
-    /* min-width:10px;
-   min-height:10px; */
+     min-width:10px;
+   min-height:10px; 
     padding: 5rem;
     font-weight:bold;
     font-size:2rem;
-}
+
 .grand{
     background-color: rgb(182, 199, 191);
 }
@@ -41,3 +35,57 @@ button{
 .child{
     background-color: cadetblue;
 }
+
+*/
+
+.form-todo{
+    /* padding:2px 34px; */
+    min-width:60%;
+    min-height:5vh;
+    display:flex;
+      justify-content: space-evenly;
+   
+}
+
+.form-todo input{
+
+    min-height:26px;
+    
+}
+
+.form-todo input[type="text"]{
+width:70%;
+background-color: black;
+text-align:center;
+padding:0.8rem;
+color:yellow;
+font-size:16px;
+}
+
+
+.form-todo input[type="submit"]{
+width:20%;
+background-color:darkolivegreen;
+}
+ 
+.todo-list{
+   
+    /* min-width:70px; */
+    display:flex;
+    /* justify-content:space-around; */
+    text-align:left;
+    list-style-type:none;
+}
+
+.todo-list li{
+    padding:0.7rem;
+    background-color:rgb(26, 26, 13);
+    color:rgb(162, 134, 134);
+    font-weight: bold;
+    gap:34px;
+    margin-top:1rem;
+    display:flex;
+    justify-content:space-around;
+
+}
+
