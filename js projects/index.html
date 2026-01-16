@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="my.css">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+    <script src="my.js" defer></script>
+    <title>RESUME GENERATOR</title>
+</head>
+<body>
+    <!--
+    1. to give any property => {property}{on which side}-{size from 0-5} 
+    for padding/MARGIN =>p/m
+    2. for sides -> use their first letter  
+    3.bootstarp grid mai default 12 cols hote hai :
+    <div class="col-sm-8" means 12 mai se 8 coloumn ki width lega ye coloumn
+    -->
+    <h1 class="text-center my-3">resume GENERATOR</h1>
+    <h5 class="text-center">by KulDeep VAshisth</h5>
+    <div class="row">
+        <div class="col-md-6">
+            <!-- personal info OR LHS side coloums -->
+        <h3 class="text-center">personal INFORMATION</h3>
+         <form>
+            <!-- for spacing in form in V-5 use mb,. in version 4 it's done by form group class -->
+            <div class="mb-3"> 
+           <div class="px-3">
+            <label class="form-label">Name</label>  
+        
+           <input type="email" class="form-control" placeholder="enter email"/>
+           </div>
+        </div>
+
+
+         <div class="mb-3"> 
+           <div class="px-3">
+            <label class="form-label">Name</label>  
+        
+           <input type="text" class="form-control" placeholder="enter name"/>
+           </div>
+        </div>
+            
+         </form>
+      
+        </div>
+
+        <div class="col-md-6">
+            <!-- professtional info col OR RHS side coloums -->
+                 <h3 class="text-center">professtional  INFORMATION</h3>
+            <form>
+            <!-- for spacing in form in V-5 use mb,. in version 4 it's done by form group class -->
+            <div class="mb-3"> 
+           <div class="px-3">
+            <label class="form-label">address</label>  
+        
+           <input type="address" class="form-control" placeholder="enter address"/>
+           </div>
+        </div>
+
+
+         <div class="mb-3"> 
+           <div class="px-3">
+            <label class="form-label">experience</label>  
+        
+           <textarea class="form-control" placeholder="enter experience"></textarea> 
+           <div class="container text-center mt-4">
+            <button class="btn btn-primary btn-lg">add</button></div>
+
+           </div>
+        </div>
+            
+         </form>            
+            </div>
+    </div>
+
+</body>
+</html>
